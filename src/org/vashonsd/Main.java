@@ -19,7 +19,7 @@ public class Main {
                 System.out.println("Congrats! That was my number");
                 numberGuessed = true;
             } else if (Math.abs(num - guess) < 3) {
-                System.out.println("You're right there! Try again");
+                System.out.println("You're almost there! Try again");
             } else if (Math.abs(num - guess) < 10) {
                 System.out.println("That's pretty close but not quite, try again.");
             } else {
